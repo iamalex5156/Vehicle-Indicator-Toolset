@@ -6,72 +6,61 @@ Deep Learning and Computer Vision based indicator toolset for vehicle drivers us
 Tracking of vehicles
 The tracking of the vehicles with a track ID can be seen below.
 ```
-```
 
 <img src="https://github.com/iamalex5156/Vehicle-Indicator-Toolset/blob/master/display/tracking1.gif?raw=true" width="410">|
 <img src="https://github.com/iamalex5156/Vehicle-Indicator-Toolset/blob/master/display/tracking2.gif?raw=true" width="410">
-```
+
 
 <br />
 ```
 Detection of the lanes.
 Whenever the driver gets out of the lane, he will be displayed a warning to stay inside the lane.
 ```
-```
 
 <img src="https://github.com/iamalex5156/Vehicle-Indicator-Toolset/blob/master/display/lanes1.gif?raw=true" width="410">|
 <img src="https://github.com/iamalex5156/Vehicle-Indicator-Toolset/blob/master/display/lanes2.gif?raw=true" width="410">
 <br />
-```
 
 ```
 Tail light detection
 Detect all the tail lights of the vehicles applying brakes at night.
 ```
-```
 
 <img src="https://github.com/iamalex5156/Vehicle-Indicator-Toolset/blob/master/display/tail1.gif?raw=true" width="410">|
 <img src="https://github.com/iamalex5156/Vehicle-Indicator-Toolset/blob/master/display/tail2.gif?raw=true" width="410">
 <br />
-```
 
 
 ```
 Traffic signal recognition
 Warning is shown when to stop and resume again using traffic lights.
 ```
-```
 
 <img src="https://github.com/iamalex5156/Vehicle-Indicator-Toolset/blob/master/display/traffic_signal1.gif?raw=true" width="410" height="235">|
 <img src="https://github.com/iamalex5156/Vehicle-Indicator-Toolset/blob/master/display/traffic_signal2.gif?raw=true" width="410">
 <br />
 <br />
-```
 
 
 ```
 Vehicle collision estimation
 Incase, a collision is estimated, driver is warned.
 ```
-```
 
 <img src="https://github.com/iamalex5156/Vehicle-Indicator-Toolset/blob/master/display/vehicle_collision1.gif?raw=true" width="410">|
 <img src="https://github.com/iamalex5156/Vehicle-Indicator-Toolset/blob/master/display/vehicle_collision2.gif?raw=true" width="410">
 <br />
 <br />
-```
 
 
 ```
 Pedestrian stepping
 Whenever, pedestrian comes in our view, a warning is displayed.
 ```
-```
 
 <img src="https://github.com/iamalex5156/Vehicle-Indicator-Toolset/blob/master/display/pedestrian1.gif?raw=true" width="410">|
 <img src="https://github.com/iamalex5156/Vehicle-Indicator-Toolset/blob/master/display/pedestrian2.gif?raw=true" width="410">
 <br />
-```
 
 
 ### Dependencies required:
@@ -108,19 +97,15 @@ Run python integrate3.py or python intyolo.py after following the above mentione
 Now select the dash area for the car by clicking on multiple points as shown below. This is done to
 remove detection of our own vehicle in some cases which may generate false results.
 ```
-```
 
 <img src="https://github.com/iamalex5156/Vehicle-Indicator-Toolset/blob/master/display/crop1.png?raw=true" width="410">
-```
 ```
 
 In the second step, select the area where searching of the lanes should be made. This may differ due to
 the placement of dash-cams in the vehicle. The area above the horizon where road ends should not be selected.
 ```
-```
 
 <img src="https://github.com/iamalex5156/Vehicle-Indicator-Toolset/blob/master/display/crop2.png?raw=true" width="410">
-```
 ```
 
 Now, you can visualize the working and see the warnings/suggestions displayed to the driver.
